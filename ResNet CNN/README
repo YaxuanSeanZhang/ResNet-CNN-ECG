@@ -1,5 +1,0 @@
-The filtered train data, validation data, and test data are saved as numpy object.
-The data use the same pipline as Colin's notebook and Pat's filter function
-Run RunModel.py
-
-The model is saved as ResNetModel_fianl
