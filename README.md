@@ -66,5 +66,7 @@ This project was written using Python 3.9 and requirments are listed in `require
 
  ## Author
   * feature extraction & external validation: Patrick Johnson
+    
   * baseline CNN: Colin Ornelas
+    
   * multi-level ResNet CNN: Yaxuan Zhang
