@@ -23,37 +23,37 @@ This project was written using Python 3.9 and requirments are listed in `require
 
  The directory `filters` contains the code needed to pre-process ECGs.  Specifically:
 
- * `filterFactory.py` contains a `FilterFactory` class that can perform a series of filters to a single lead of an ECG.
+  * `filterFactory.py` contains a `FilterFactory` class that can perform a series of filters to a single lead of an ECG.
 
- * `ecgMatrix.py` contains a `ECGMatrix` class for an ECG matrix that can optionally apply filters to every lead of an ECG
+  * `ecgMatrix.py` contains a `ECGMatrix` class for an ECG matrix that can optionally apply filters to every lead of an ECG
 
  ### Models Pipeline
 
  #### Feature Extraction Based
 
- * `feature_extraction/ecgAutoencoder.py` contains the autoencoder model
+  * `feature_extraction/ecgAutoencoder.py` contains the autoencoder model
 
- * `feature_extraction/autoencoder_train_automl.ipynb` is a notebook that trains the autoencoder and performs AutoML on the extracted features
+  * `feature_extraction/autoencoder_train_automl.ipynb` is a notebook that trains the autoencoder and performs AutoML on the extracted features
 
- * `feature_extraction/baseline_features.py` contains functions to extract baseline features based on domain-specific knowledge
+  * `feature_extraction/baseline_features.py` contains functions to extract baseline features based on domain-specific knowledge
 
- * `feature_extraction/data_prep.py` contains code to extract the baseline features and save to disk
+  * `feature_extraction/data_prep.py` contains code to extract the baseline features and save to disk
 
- * `feature_extraction/model_traditional_feature_extraction.ipynb` is a notebook that trains does AutoML on the baseline features
+  * `feature_extraction/model_traditional_feature_extraction.ipynb` is a notebook that trains does AutoML on the baseline features
 
  #### Baseline CNN
 
- * `baseline CNN/model_development.ipynb` contains the code to train the CNN model
+  * `baseline CNN/model_development.ipynb` contains the code to train the CNN model
 
  #### Multi-level ResNet CNN
 
   * `ResNet/image_dataset.py` defines and constructs an image dataset for filtered ECG data, including a weighted sampling process.
 
- * `ResNet/ECGNet.py` contains functions to build a multi-level ResNet CNN, including training and prediction processes.
+  * `ResNet/ECGNet.py` contains functions to build a multi-level ResNet CNN, including training and prediction processes.
 
- * `ResNet/RunModel.py` trains models and makes predictions on test data.
+  * `ResNet/RunModel.py` trains models and makes predictions on test data.
 
- * `ResNet/ResNetmodel_final` stores the output model with trained weights, intended for external validation.
+  * `ResNet/ResNetmodel_final` stores the output model with trained weights, intended for external validation.
 
 
  ## External Validation
@@ -65,6 +65,6 @@ This project was written using Python 3.9 and requirments are listed in `require
  The code to identify labels, generate the cohort, and run predictions is in `external_validation/analysis.py`.
 
  ## Author
- feature extraction & external validation: Patrick Johnson
- baseline CNN: Colin Ornelas
- multi-level ResNet CNN: Yaxuan Zhang
+  * feature extraction & external validation: Patrick Johnson
+  * baseline CNN: Colin Ornelas
+  * multi-level ResNet CNN: Yaxuan Zhang
