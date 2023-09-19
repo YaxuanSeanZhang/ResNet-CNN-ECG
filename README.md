@@ -1,7 +1,7 @@
 # CNN_ECG
 
 ## Overview
- The CNN_ECG repository is a machine learning (ML) and Convolutional Neural Network (CNN) pipeline for the prediction of conduction disorders (CD) using 12-lead electrocardiogram (ECGs). The final report summarizing the project's findings is available in the file final_report.pdf.
+ The CNN_ECG repository is a machine learning (ML) and Convolutional Neural Network (CNN) pipeline for the prediction of conduction disorders (CD) using 12-lead electrocardiogram (ECGs). The final report summarizing the project's findings is available in the file `final_report.pdf`.
  
 ## Requirments
 
