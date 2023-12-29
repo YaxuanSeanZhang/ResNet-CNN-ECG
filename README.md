@@ -5,11 +5,11 @@
  
 ## Requirments
 
-This project was written using Python 3.9 and requirments are listed in `requirements.txt`.
+This project was written using Python 3.9 and requirements are listed in `requirements.txt`.
 
 ## Code Base
 
- ### Data Acquisition and Preprossing Pipeline
+ ### Data Acquisition and Preprocessing Pipeline
  `utils.py` contains a series of helper functions that can be used to do things like fetch ECGs, load ECGs from disk, apply class labels, apply filters, and split data into train/test sets.
 
  #### Data Acquisition
